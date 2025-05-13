@@ -16,19 +16,14 @@ Das Projekt spielt in der Welt eines Freizeitparks mit lebenden Dinosauriern. Al
   - `"Daisy!8"` erzeugt z. B. einen Dino namens *Daisy* mit DNA-Code `8` in der aktiven Fabrik
 - Speicherung aller erzeugten Dinos im Suchbaum für spätere Verarbeitung
 
-## 🧱 Architektur
-
-- Interfaces zur Spezifikation der Saurier und Datenstruktur
-- Baumstruktur besteht aus `EmptyTreeNode` und `NonEmptyTreeNode`
-- Implementierte Saurierarten: z. B. **Tyrannosaurus Rex**, **Edmontosaurus**
-- Fabriken: `TRexFactory`, `EdSFactory`
-- Einstiegspunkt: `Application.java` (hier werden Szenarien ausgeführt)
-
 ## 🚀 Beispiel
 
 ```plaintext
 #TREX
-Dino1!42
-Dino2!11
-#EDS
-Dino3!6
+Mom!200
+Tick!456
+Trick!123
+Track!7
+#EDMONTOSAURUS
+Donald!1
+Daisy!8
